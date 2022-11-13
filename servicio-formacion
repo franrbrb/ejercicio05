@@ -16,4 +16,4 @@ eureka:
   instance: 
     prefer-ip-address: true        
 server:
-  port: 9000
+  port: 8000
