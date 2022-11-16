@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+      label: main
+      server:
+        git:
+          uri: https://github.com/franrbrb/ejercicio05/
+          default-label: main
+          
+
+
